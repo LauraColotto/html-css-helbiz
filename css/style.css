@@ -1,0 +1,146 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+h3{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+}
+/* Header */
+
+
+.header-top{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 70px;
+  line-height: 70px;
+  font-size: 0.7rem;
+}
+
+.logo{
+  max-width: 80px;
+  color: white;
+  vertical-align: middle;
+}
+
+.menu{
+  text-align: right;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left:20px;
+  color: white;
+}
+
+nav li a{
+  color: white;
+  text-align: right;
+  font-weight: 600;
+}
+
+.right-menu{
+  text-align: right;
+}
+
+.language{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 5px;
+}
+
+#login{
+  background-color: black;
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 10px 15px;
+
+}
+
+.hero{
+  position: relative;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.btn-hero-lx{
+  float: right;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+.btn-hero-dx{
+  float: left;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+
+.hamburger-icon {
+  float: right;
+  text-align: right;
+  line-height: 70px;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* Medium Adgiust */
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+  .container{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+
+}
+
+/* Small Adgiust */
+
+@media screen and (max-width: 768px){
+
+  .container{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .btn-hero-lx{
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .btn-hero-dx{
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
