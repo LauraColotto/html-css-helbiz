@@ -4,6 +4,7 @@
 
 a{
   text-decoration: none;
+  color: #0070c8;
 }
 
 h1{
@@ -13,7 +14,12 @@ h1{
 }
 
 h3{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 1rem;
   color: white;
   font-weight: 400;
 }
@@ -97,7 +103,7 @@ nav li a{
 }
 
 .title{
-  position:absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
@@ -112,6 +118,50 @@ nav li a{
   color: white;
 }
 
+
+.inlight{
+  background-color: white;
+  padding: 80px 0;
+  text-align: center;
+  color: black;
+}
+
+/* .inlight img{
+  display: block;
+  margin: auto;
+} */
+
+.prod-Hel{
+  height: 23px;
+}
+
+.product-ph{
+  max-height: 340px;
+  margin: auto;
+}
+
+.inlight h3{
+  margin-top: 32px;
+}
+
+
+.product-lx{
+  float: left;
+  background-color: #fafafa;
+  padding: 0 16px;
+  width: 49%;
+}
+.product-dx{
+  float: right;
+  background-color: #fafafa;
+  padding: 0 16px;
+  width: 49%;
+}
+
+.prod-info{
+  padding: 94px 48px 32px;
+}
+
 /* Medium Adgiust */
 
 @media screen and (min-width: 769px) and (max-width: 992px){
@@ -121,6 +171,9 @@ nav li a{
     padding-right: 25px;
   }
 
+  .product-ph{
+    max-width: 100%;
+  }
 
 }
 
@@ -143,4 +196,26 @@ nav li a{
     margin: auto;
     margin-top: 20px;
   }
+
+  .prod-info{
+    padding: 94px 48px 32px;
+
+  }
+
+  .product-lx{
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .product-dx{
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+ .product-ph{
+   max-width:100%;
+ }
+
 }
